@@ -46,3 +46,13 @@ until [ ccondition ];
 do
    statement
 done
+
+7.case statement:-
+
+case expression in
+   case1) statement ;;
+   case2) statement ;;
+   case3) statement ;;
+   
+   *) statement ;;
+esac
