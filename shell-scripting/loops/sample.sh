@@ -4,9 +4,7 @@
 #
 
 echo "enter age"
-echo "enter sal"
 read age
-read sal
 while [ $age -gt 0 ];
 do
         if [ $age -lt 18 ];
@@ -16,6 +14,8 @@ do
         elif [ $age -ge 18 ];
          then
               echo "eligible for income"
+	      echo "enter sal"
+	      read sal
 	      if [ $sal -lt 20000 ];
 	      then
 		      echo "no tax"
